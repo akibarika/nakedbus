@@ -1,0 +1,277 @@
+[
+    {
+        "date":"2014-07-24",
+        "display":"Thu, 24 Jul 2014",
+        "dateAsLong":1406116800000
+    },
+    {
+        "date":"2014-07-25",
+        "display":"Fri, 25 Jul 2014",
+        "dateAsLong":1406203200000
+    },
+    {
+        "date":"2014-07-26",
+        "display":"Sat, 26 Jul 2014",
+        "dateAsLong":1406289600000
+    },
+    {
+        "date":"2014-07-27",
+        "display":"Sun, 27 Jul 2014",
+        "dateAsLong":1406376000000
+    },
+    {
+        "date":"2014-07-28",
+        "display":"Mon, 28 Jul 2014",
+        "dateAsLong":1406462400000
+    },
+    {
+        "date":"2014-07-29",
+        "display":"Tue, 29 Jul 2014",
+        "dateAsLong":1406548800000
+    },
+    {
+        "date":"2014-07-30",
+        "display":"Wed, 30 Jul 2014",
+        "dateAsLong":1406635200000
+    },
+    {
+        "date":"2014-07-31",
+        "display":"Thu, 31 Jul 2014",
+        "dateAsLong":1406721600000
+    },
+    {
+        "date":"2014-08-01",
+        "display":"Fri, 1 Aug 2014",
+        "dateAsLong":1406808000000
+    },
+    {
+        "date":"2014-08-02",
+        "display":"Sat, 2 Aug 2014",
+        "dateAsLong":1406894400000
+    },
+    {
+        "date":"2014-08-03",
+        "display":"Sun, 3 Aug 2014",
+        "dateAsLong":1406980800000
+    },
+    {
+        "date":"2014-08-04",
+        "display":"Mon, 4 Aug 2014",
+        "dateAsLong":1407067200000
+    },
+    {
+        "date":"2014-08-05",
+        "display":"Tue, 5 Aug 2014",
+        "dateAsLong":1407153600000
+    },
+    {
+        "date":"2014-08-06",
+        "display":"Wed, 6 Aug 2014",
+        "dateAsLong":1407240000000
+    },
+    {
+        "date":"2014-08-07",
+        "display":"Thu, 7 Aug 2014",
+        "dateAsLong":1407326400000
+    },
+    {
+        "date":"2014-08-08",
+        "display":"Fri, 8 Aug 2014",
+        "dateAsLong":1407412800000
+    },
+    {
+        "date":"2014-08-09",
+        "display":"Sat, 9 Aug 2014",
+        "dateAsLong":1407499200000
+    },
+    {
+        "date":"2014-08-10",
+        "display":"Sun, 10 Aug 2014",
+        "dateAsLong":1407585600000
+    },
+    {
+        "date":"2014-08-11",
+        "display":"Mon, 11 Aug 2014",
+        "dateAsLong":1407672000000
+    },
+    {
+        "date":"2014-08-12",
+        "display":"Tue, 12 Aug 2014",
+        "dateAsLong":1407758400000
+    },
+    {
+        "date":"2014-08-13",
+        "display":"Wed, 13 Aug 2014",
+        "dateAsLong":1407844800000
+    },
+    {
+        "date":"2014-08-14",
+        "display":"Thu, 14 Aug 2014",
+        "dateAsLong":1407931200000
+    },
+    {
+        "date":"2014-08-15",
+        "display":"Fri, 15 Aug 2014",
+        "dateAsLong":1408017600000
+    },
+    {
+        "date":"2014-08-16",
+        "display":"Sat, 16 Aug 2014",
+        "dateAsLong":1408104000000
+    },
+    {
+        "date":"2014-08-17",
+        "display":"Sun, 17 Aug 2014",
+        "dateAsLong":1408190400000
+    },
+    {
+        "date":"2014-08-18",
+        "display":"Mon, 18 Aug 2014",
+        "dateAsLong":1408276800000
+    },
+    {
+        "date":"2014-08-19",
+        "display":"Tue, 19 Aug 2014",
+        "dateAsLong":1408363200000
+    },
+    {
+        "date":"2014-08-20",
+        "display":"Wed, 20 Aug 2014",
+        "dateAsLong":1408449600000
+    },
+    {
+        "date":"2014-08-21",
+        "display":"Thu, 21 Aug 2014",
+        "dateAsLong":1408536000000
+    },
+    {
+        "date":"2014-08-22",
+        "display":"Fri, 22 Aug 2014",
+        "dateAsLong":1408622400000
+    },
+    {
+        "date":"2014-08-23",
+        "display":"Sat, 23 Aug 2014",
+        "dateAsLong":1408708800000
+    },
+    {
+        "date":"2014-08-24",
+        "display":"Sun, 24 Aug 2014",
+        "dateAsLong":1408795200000
+    },
+    {
+        "date":"2014-08-25",
+        "display":"Mon, 25 Aug 2014",
+        "dateAsLong":1408881600000
+    },
+    {
+        "date":"2014-08-26",
+        "display":"Tue, 26 Aug 2014",
+        "dateAsLong":1408968000000
+    },
+    {
+        "date":"2014-08-27",
+        "display":"Wed, 27 Aug 2014",
+        "dateAsLong":1409054400000
+    },
+    {
+        "date":"2014-08-28",
+        "display":"Thu, 28 Aug 2014",
+        "dateAsLong":1409140800000
+    },
+    {
+        "date":"2014-08-29",
+        "display":"Fri, 29 Aug 2014",
+        "dateAsLong":1409227200000
+    },
+    {
+        "date":"2014-08-30",
+        "display":"Sat, 30 Aug 2014",
+        "dateAsLong":1409313600000
+    },
+    {
+        "date":"2014-08-31",
+        "display":"Sun, 31 Aug 2014",
+        "dateAsLong":1409400000000
+    },
+    {
+        "date":"2014-09-01",
+        "display":"Mon, 1 Sep 2014",
+        "dateAsLong":1409486400000
+    },
+    {
+        "date":"2014-09-02",
+        "display":"Tue, 2 Sep 2014",
+        "dateAsLong":1409572800000
+    },
+    {
+        "date":"2014-09-03",
+        "display":"Wed, 3 Sep 2014",
+        "dateAsLong":1409659200000
+    },
+    {
+        "date":"2014-09-04",
+        "display":"Thu, 4 Sep 2014",
+        "dateAsLong":1409745600000
+    },
+    {
+        "date":"2014-09-05",
+        "display":"Fri, 5 Sep 2014",
+        "dateAsLong":1409832000000
+    },
+    {
+        "date":"2014-09-06",
+        "display":"Sat, 6 Sep 2014",
+        "dateAsLong":1409918400000
+    },
+    {
+        "date":"2014-09-07",
+        "display":"Sun, 7 Sep 2014",
+        "dateAsLong":1410004800000
+    },
+    {
+        "date":"2014-09-08",
+        "display":"Mon, 8 Sep 2014",
+        "dateAsLong":1410091200000
+    },
+    {
+        "date":"2014-09-09",
+        "display":"Tue, 9 Sep 2014",
+        "dateAsLong":1410177600000
+    },
+    {
+        "date":"2014-09-10",
+        "display":"Wed, 10 Sep 2014",
+        "dateAsLong":1410264000000
+    },
+    {
+        "date":"2014-09-11",
+        "display":"Thu, 11 Sep 2014",
+        "dateAsLong":1410350400000
+    },
+    {
+        "date":"2014-09-12",
+        "display":"Fri, 12 Sep 2014",
+        "dateAsLong":1410436800000
+    },
+    {
+        "date":"2014-09-13",
+        "display":"Sat, 13 Sep 2014",
+        "dateAsLong":1410523200000
+    },
+    {
+        "date":"2014-09-14",
+        "display":"Sun, 14 Sep 2014",
+        "dateAsLong":1410609600000
+    },
+    {
+        "date":"2014-09-15",
+        "display":"Mon, 15 Sep 2014",
+        "dateAsLong":1410696000000
+    },
+    {
+        "date":"2014-09-16",
+        "display":"Tue, 16 Sep 2014",
+        "dateAsLong":1410782400000
+    }
+]

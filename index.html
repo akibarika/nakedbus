@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NakedBus Search</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet/less" type="text/css" href="css/styles.less" />
+    <script src="js/less-min.js" type="text/javascript"></script>
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,800,900,300,200,100">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="wrap-header">
+                <div class="container">
+                    <div class="logo">
+                        <span>Naked</span>bus<span class="com">.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="menu">
+            <div class="container">
+                <ul>
+                    <li>Home</li>
+                    <li>Routes</li>
+                    <li>Timetable</li>
+                    <li>Bus Stops</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
+    <section class="content">
+        <div class="imgbg blur"></div>
+        <div id="bigsearch">
+            <div class="search-form container">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12">
+                        <div class="panel panel-search">
+                            <div class="panel-title">
+                                <div class="title">
+                                    <span>Find a Bus</span>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <form id="searchform">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-sm-3 col-xs-12">
+                                            <div class="group">
+                                                <label>From</label>
+                                                <select id="location" class="form-control">
+                                                    <option value="0">Please select</option>
+                                                </select>
+                                                <div class="caret-outter">
+                                                    <div class="caret"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-sm-3 col-xs-12">
+                                            <div class="group">
+                                                <label>To</label>
+                                                <select id="destination" class="form-control">
+                                                    <option value="0">Please select</option>
+
+                                                </select>
+                                                <div class="caret-outter">
+                                                    <div class="caret"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-sm-3 col-xs-12">
+                                            <div class="group">
+                                                <label>Date</label>
+                                                <select id="date" class="form-control">
+                                                    <option value="0">Please select</option>
+                                                </select>
+                                                <div class="caret-outter">
+                                                    <div class="caret"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-sm-3 col-xs-12">
+                                            <div class="group">
+                                                <input type="submit" class="btn green btn-lg" value="Search Now">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $.getJSON("OriginLocation.txt",function(data){
+            var option = "";
+            $.each(data,function(i,n){
+                option += "<option value=" + n.id + ">" + n.name + "</option>";
+            })
+            $("#location").append(option);
+        })
+        $("select#location").change(function() {
+            var options = $("#location option:selected");
+            var option = "";
+            if (options.val() == "191") {
+                $.getJSON("DestinationsFromAuckland.txt", function (data) {
+                    $.each(data, function (i, n) {
+                        option += "<option value=" + n.id + ">" + n.name + "</option>";
+                    })
+                    $("#destination").empty();
+                    $("#destination").append(option);
+                })
+            } else if (options.val() == "318") {
+                $.getJSON("DestinationsFromChristchurch.txt", function (data) {
+                    $.each(data, function (i, n) {
+                        option += "<option value=" + n.id + ">" + n.name + "</option>";
+                    })
+                    $("#destination").empty();
+                    $("#destination").append(option);
+                })
+            } else if (options.val() == "193") {
+                $.getJSON("DestinationsFromHamilton.txt", function (data) {
+                    $.each(data, function (i, n) {
+                        option += "<option value=" + n.id + ">" + n.name + "</option>";
+                    })
+                    $("#destination").empty();
+                    $("#destination").append(option);
+                })
+            } else if (options.val() == "196") {
+                $.getJSON("DestinationsFromWellington.txt", function (data) {
+                    $.each(data, function (i, n) {
+                        option += "<option value=" + n.id + ">" + n.name + "</option>";
+                    })
+                    $("#destination").empty();
+                    $("#destination").append(option);
+                })
+            }else if(options.val() == "0"){
+                var empty = '<option value="0">Please select</option>';
+                $("#destination").empty();
+                $("#destination").append(empty);
+            }
+        })
+        $.getJSON("AvailableDates.txt",function(data){
+            var option = "";
+            $.each(data,function(i,n){
+                option += "<option value=" + n.dateAsLong + ">" + n.display + "</option>";
+            })
+            $("#date").append(option);
+        })
+    })
+
+</script>
+</body>
+</html>

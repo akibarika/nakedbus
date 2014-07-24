@@ -1,0 +1,18 @@
+[
+    {
+        "name":"Picton - Ferry Terminal",
+        "id":"1000157"
+    },
+    {
+        "name":"Queenstown",
+        "id":"390"
+    },
+    {
+        "name":"Christchurch Airport",
+        "id":"319"
+    },
+    {
+        "name":"Amberley",
+        "id":"323"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "name":"Auckland",
+        "id":"191"
+    },
+    {
+        "name":"Auckland Airport - Domestic Terminal",
+        "id":"534"
+    },
+    {
+        "name":"Auckland Airport - Int Terminal",
+        "id":"536"
+    },
+    {
+        "name":"Napier (Central)",
+        "id":"220"
+    },
+    {
+        "name":"Rotorua",
+        "id":"194"
+    },
+    {
+        "name":"Tauranga (Central)",
+        "id":"229"
+    },
+    {
+        "name":"Wellington City",
+        "id":"196"
+    }
+]
