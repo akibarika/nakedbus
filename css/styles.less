@@ -50,6 +50,8 @@ body {
   }
   section.content {
     position: relative;
+    height: auto;
+    overflow: hidden;
     .imgbg {
       background: url(../img/imgbg.jpg) center 0 no-repeat scroll transparent;
       -webkit-background-size: cover;
@@ -117,9 +119,52 @@ body {
 
             }
           }
+          #calendar {
+            .datepicker {
+              table {
+                tr {
+                  &:first-child {
+                    th {
+                      &:hover {
+                        color: #2F2F2F;
+                      }
+                    }
+                  }
+                  td {
+                    &.disabled.day {
+                      cursor: not-allowed;
+                      color: #595959;
+                      &:hover {
+                        color: #595959;
+                      }
+                    }
+                    &.day {
+                      &:hover {
+                        color: #2F2F2F;
+                      }
+                      &.active {
+                        background-color: #586E5F;
+                        border-color: #445449;
+                      }
+                    }
+                    span {
+                      &.active {
+                        background-color: #586E5F;
+                        border-color: #445449;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
+  }
+  footer {
+    margin-top: 40px;
+    padding-bottom: 20px;
   }
 }
 
